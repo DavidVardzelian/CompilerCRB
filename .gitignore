@@ -1,0 +1,88 @@
+# ============================
+# Compiled Object Files
+# ============================
+*.o
+*.obj
+
+# ============================
+# Compiled Dynamic Libraries
+# ============================
+*.so
+*.dll
+*.dylib
+
+# ============================
+# Executables
+# ============================
+bin/
+*.exe
+*.out
+*.app
+
+# ============================
+# Build Directories
+# ============================
+build/
+temp/
+tmp/
+
+# ============================
+# Dependency Directories
+# ============================
+node_modules/
+vendor/
+
+# ============================
+# IDE and Editor Specific Files
+# ============================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+
+# Eclipse
+.project
+.cproject
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ============================
+# Logs and Databases
+# ============================
+*.log
+*.sql
+*.sqlite
+
+# ============================
+# OS Generated Files
+# ============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
