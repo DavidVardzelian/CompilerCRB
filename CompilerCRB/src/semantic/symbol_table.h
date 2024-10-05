@@ -2,7 +2,7 @@
 #define SYMBOL_TABLE_H
 
 #include <stdlib.h>
-
+#include "../AST/ast.h"
 typedef struct Symbol
 {
     char *name;

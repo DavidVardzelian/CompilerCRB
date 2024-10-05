@@ -1,8 +1,8 @@
 #ifndef IR_H
 #define IR_H
 
-#include "../ast/ast.h"
-#include "../semantic/symbol_table.h"
+#include "../AST/ast.h"
+#include "../Semantic/symbol_table.h"
 
 typedef struct
 {
@@ -13,6 +13,8 @@ typedef struct
     struct IRIstruction *next;
 } IRIstruction;
 
-IRInstruction *generate_ir(ASTNode *ast, SymbolTable *symbol_table);
+IRIstruction *generate_ir(ASTNode *ast, SymbolTable *sym_table);
 
-void free_ir(IRInstruction *ir);
+void free_ir(IRIstruction *ir);
+
+#endif

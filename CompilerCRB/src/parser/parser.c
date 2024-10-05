@@ -1,5 +1,5 @@
 #include "parser.h"
-#include "../ast/ast.h"
+#include "../AST/ast.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -53,7 +53,7 @@ void traverse_ast(ASTNode *node)
         traverse_ast(node->child[0]);
         traverse_ast(node->child[1]);
         char temp_result[50];
-        sprintf(temp_result, "t%d", rando());
+        sprintf(temp_result, "t%d", rand());
         emit(node->value, node->child[0]->value, node->child[1]->value, temp_result);
 
         free(node->value);

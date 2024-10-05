@@ -1,7 +1,7 @@
 #ifndef CODEGEN_H
 #define CODEGEN_H
 
-#include "../ir/ir.h"
+#include "../IR/ir.h"
 
 void generate_code(IRIstruction *ir);
 
